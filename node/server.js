@@ -18,6 +18,7 @@
 // Deployment tracking
 //------------------------------------------------------------------------------
 require('cf-deployment-tracker-client').track();
+require('./ibmapm');
 
 const express = require('express');
 const cfenv = require('cfenv');

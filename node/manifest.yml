@@ -1,6 +1,8 @@
 applications:
 - name:      bluemix-todo-node
-  host:      bluemix-todo-node
+  host:      jlltest2
   memory:    128M
   services:
-  - todo-db 
+  - todo-db
+  env:
+    APM_BM_GATEWAY_URL: http://cap-sg-prd-3.integration.ibmcloud.com:17835

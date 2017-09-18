@@ -21,7 +21,16 @@
     "cfenv": "1.0.3",
     "cloudant": "1.6.2",
     "express": "4.14.0",
-    "mongodb": "2.2.12"
+    "mongodb": "2.2.12",
+    "appmetrics": "^3.0.1",
+    "properties": "^1.2.1",
+    "uuid":"^2.0.2",
+    "log4js": "^0.6.38",
+    "https-proxy-agent":"^1.0.0",
+    "agent-base": "^2",
+    "debug": "^2",
+    "extend": "^3",
+    "request": "^2.72.0"
   },
   "devDependencies": {
     "chai": "3.5.0",

@@ -1,6 +1,6 @@
 applications:
 - name: bluemix-todo-python-cloudant
-  host: bluemix-todo-python-cloudant
+  host: jlltest1
   memory: 256M
   command: python couch-app.py
   services:

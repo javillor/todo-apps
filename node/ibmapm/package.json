@@ -1,0 +1,69 @@
+{
+  "name": "ibmapm",
+  "main": "./index.js",
+  "version": "1.0.8",
+  "readme": "Node.js Data Collector",
+  "description": "Node.js data collector for IBM BAM",
+  "dependencies": {
+    "appmetrics": "^3.0.1",
+    "properties": "^1.2.1",
+    "uuid": "^2.0.2",
+    "log4js": "^0.6.38",
+    "https-proxy-agent": "^1.0.0",
+    "agent-base": "^2",
+    "debug": "^2",
+    "extend": "^3",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.14.1",
+    "eslint-config-strongloop": "^2.1.0",
+    "mocha": "^2.5.3",
+    "should": "^9.0.0",
+    "should-http": "0.0.4",
+    "unexpected": "^10.13.3"
+  },
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha lib/test/testRestClient.js -t 10000 -R xunit"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "email": "yuecchen@cn.ibm.com",
+    "url": "https://github.com/IBM-APM/node-ibmapm/issues"
+  },
+  "author": {
+    "name": "Yue Chen",
+    "email": "yuecchen@cn.ibm.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IBM-APM/node-ibmapm.git"
+  },
+  "contributors": [
+    {
+      "name": "Hui Jun Song",
+      "email": "songhj@cn.ibm.com"
+    },
+    {
+      "name": "Yue Chen",
+      "email": "yuecchen@cn.ibm.com"
+    },
+    {
+      "name": "Ravi Gadekarla",
+      "email": "rgadekar@us.ibm.com"
+    },
+    {
+      "name": "Chi Yang Li",
+      "email": "bjcyli@cn.ibm.com"
+    }
+  ],
+  "keywords": [
+    "appmetrics",
+    "apm",
+    "ibm",
+    "performance",
+    "monitoring"
+  ]
+}

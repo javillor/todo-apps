@@ -1,0 +1,33 @@
+{
+  "name": "knj-restclient",
+  "version": "1.0.0",
+  "private": true,
+  "readme": "Node.js Rest Client",
+  "description": "Node.js Rest Client for IBM BAM",
+  "dependencies": {
+    "log4js": "0.6.38",
+    "https-proxy-agent":"1.0.0",
+    "agent-base": "2",
+    "debug": "2",
+    "extend": "3",
+    "request": "^2.72.0"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "should": "^9.0.0",
+    "should-http": "0.0.4",
+    "unexpected": "^10.13.3"
+  },
+  "scripts": {
+    "test": "mocha -t 10000 -R xunit >testResult.xml"
+  },
+  "keywords": [
+    "appmetrics",
+    "bam",
+    "ibm",
+    "performance",
+    "monitoring"
+  ]
+}
